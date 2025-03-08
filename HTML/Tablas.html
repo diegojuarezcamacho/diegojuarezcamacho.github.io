@@ -1,0 +1,418 @@
+<html> 
+    <head> 
+        <Title>Formularios</Title> 
+        <link rel="stylesheet" href="../css/style.css" type="text/css"> 
+        <style type="text/css">
+            
+        nav ul li a {
+            text-decoration: none;
+        }
+        section {
+            width: 70%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 30px;
+            overflow-x: auto;
+        }
+        h2 {
+            margin-bottom: 20px;
+        }
+        header, footer {
+            text-align: center;
+        }
+        nav ul {
+            text-align: center;
+        }
+        p {
+            margin-bottom: 30px;
+        }
+        table {
+            background-color: darkslategray;
+            color: white;
+        }
+        #tab_buap {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border-spacing: 10px;
+            border-collapse: collapse;
+        }
+        #tab_buap th {
+            background-color: darkslategrey;
+            color: white;
+            height: 50px;
+        }
+        #tab_buap td {
+            background-color: white;
+            color: black;
+            height: 30px;
+            padding: 10px;
+        }
+        #tab_buap th, #tab_buap td {
+            border-width: 3px;
+            border-color: darkslategrey;
+            border-style: solid;
+        }
+        #tab_libros {
+            width: 70%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+        #tab_libros th {
+            height: 50px;
+            background-color: darkslategrey;
+            color: white;
+        }
+        #tab_libros tbody tr:nth-child(even) {
+            background-color: azure;
+            color: darkslategray;
+        }
+        #tab_libros tbody tr:nth-child(odd) {
+            background-color: white;
+            color: black;
+        }
+        #tab_libros td {
+            height: 30px;
+            padding: 20px;
+        }
+        #tab_pelis {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+            background-color: darkslategray;
+        }
+        #tab_pelis th {
+            background-color: white;
+            color: darkslategrey;
+            height: 50px;
+            padding: 10px;
+        }
+        #tab_pelis, #tab_pelis th, #tab_pelis td {
+            border-width: 3px;
+            border-style: solid;
+            border-color: white;
+        }
+        #tab_pelis td {
+            height: 30px;
+            padding: 20px;
+        }
+        #tab_pelis tbody tr:hover {
+            background-color: black;
+        }
+        #tab_series {
+            width: 1500px;
+            border-collapse: collapse;
+            background-color: darkslategray;
+        }
+        #tab_series th, #tab_series td {
+            border: 1px solid white;
+            padding: 10px;
+        }
+        #tab_series th {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>TABLAS</h1>
+    </header>
+    <nav>
+            <ul> 
+                <li><a href="../HTML/formatos%20de%20texto.html">Formatos</a></li> 
+                <li><a href="../HTML/listas.html">Listas</a></li> 
+                <li><a href="../HTML/Enlaces.html">Enlaces</a></li> 
+                <li><a href="../HTML/Tablas.html">Tablas</a></li> 
+                <li><a href="../HTML/imagenes.html">Imagenes</a></li> 
+                <li><a href="../HTML/audio.html">Audios</a></li> 
+                <li><a href="../HTML/Video.html">Videos</a></li> 
+                <li><a href="../HTML/formularios.html">Formularios</a></li>
+                <li><a href="../HTML/Index.html">Inicio</a></li> 
+            </ul> 
+    </nav>
+    <main>
+        <section>
+            <h2 id="tablas1">Tabla simple</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sit amet enim nulla. Nunc commodo, ligula eu finibus feugiat, nibh ipsum porttitor enim, quis eleifend arcu felis nec nisl. Mauris lacinia porttitor sapien, at volutpat mauris consectetur vitae. Suspendisse potenti. Sed vulputate feugiat nunc non dignissim. Mauris quam mi, tempor nec lacus id, dapibus consequat dui. Maecenas blandit convallis nulla, id lobortis urna auctor sed. Pellentesque at urna rhoncus, molestie dolor sed, placerat justo. Praesent sed convallis eros. Aenean tristique viverra sapien, ut finibus lorem molestie ac. Curabitur quis ornare lacus. Cras luctus, quam eu posuere fermentum, neque dui vulputate.</p>
+            <table id="tab_buap" border="1">
+                <thead>
+                    <tr>
+                        <th>Matricula</th>
+                        <th>Nombre</th>
+                        <th>Facultad</th>
+                        <th>Celular</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>202069394</td>
+                        <td>Carlos Sánchez López</td>
+                        <td>Ingeniería</td>
+                        <td>2225564415</td>
+                        <td>carlos.sanchez@buap.mx</td>
+                    </tr>
+                    <tr>
+                        <td>202435421</td>
+                        <td>María González Ruiz</td>
+                        <td>Administración</td>
+                        <td>2224592839</td>
+                        <td>maria.gonzalez@buap.mx</td>
+                    </tr>
+                    <tr>
+                        <td>202531128</td>
+                        <td>Jorge Martínez Díaz</td>
+                        <td>Medicina</td>
+                        <td>2227324987</td>
+                        <td>jorge.martinez@buap.mx</td>
+                    </tr>
+                    <tr>
+                        <td>202349925</td>
+                        <td>Ana López Pérez</td>
+                        <td>Derecho</td>
+                        <td>2211753217</td>
+                        <td>ana.lopez@buap.mx</td>
+                    </tr>
+                    <tr>
+                        <td>202039486</td>
+                        <td>Luis Rodríguez García</td>
+                        <td>Química</td>
+                        <td>2228384712</td>
+                        <td>luis.rodriguez@buap.mx</td>
+                    </tr>
+                    <tr>
+                        <td>202245630</td>
+                        <td>Sofía Hernández Martínez</td>
+                        <td>Arquitectura</td>
+                        <td>2211388458</td>
+                        <td>sofia.hernandez@buap.mx</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2 id="tablas2">Tabla cebra</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu justo nibh. Integer a fringilla diam. Mauris nec lobortis nunc. Duis non orci varius, iaculis magna a, lacinia nisi. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc ornare porta sem et imperdiet. Vestibulum non lorem facilisis, eleifend diam vestibulum, venenatis augue. Etiam a varius mi, et dapibus leo. Fusce in finibus erat, lobortis vulputate metus. Phasellus vel luctus ante. Proin id lobortis ex. Curabitur.</p>
+            <table id="tab_libros" border="1">
+                <thead>
+                    <tr>
+                        <th>Titulo</th>
+                        <th>Autor</th>
+                        <th>Editorial</th>
+                        <th>Año</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Psicología Oscura</td>
+                        <td>Michael Stevens</td>
+                        <td>Herder</td>
+                        <td>2019</td>
+                        <td>250.00</td>
+                    </tr>
+                    <tr>
+                        <td>Mente Millonaria</td>
+                        <td>Patrick Rothfuss</td>
+                        <td>Plaza y Janés</td>
+                        <td>2011</td>
+                        <td>180.00</td>
+                    </tr>
+                    <tr>
+                        <td>El monje que vendió su Ferrari</td>
+                        <td>Rafael Martínez</td>
+                        <td>Autocdicios</td>
+                        <td>2024</td>
+                        <td>220.00</td>
+                    </tr>
+                    <tr>
+                        <td>El volumen del tiempo 1</td>
+                        <td>Solvej Valle</td>
+                        <td>Herder</td>
+                        <td>2020</td>
+                        <td>350.00</td>
+                    </tr>
+                    <tr>
+                        <td>El precio de los recuerdos</td>
+                        <td>Diego Gutiérrez Quintana</td>
+                        <td>Autopublicado en Amazon</td>
+                        <td>2024</td>
+                        <td>280.00</td>
+                    </tr>
+                    <tr>
+                        <td>Cincuenta poemas</td>
+                        <td>Luis Vicente de Aguinaga</td>
+                        <td>Difusión cultural</td>
+                        <td>2015</td>
+                        <td>245.00</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Total</td>
+                        <td>1525.00</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2 id="tablas3">Tabla hover</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla luctus pulvinar. In quis sem id massa pharetra facilisis ac convallis nunc. Donec eleifend rhoncus suscipit. Duis scelerisque ultricies sagittis. Morbi at tellus sapien. Nullam porttitor, nulla at pellentesque posuere, neque est laoreet lectus, quis maximus odio arcu id diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra.</p>
+            <table id="tab_pelis">
+                <thead>
+                    <tr>
+                        <th>Titulo</th>
+                        <th>Autor</th>
+                        <th>Genero</th>
+                        <th>Año</th>
+                        <th>Recaudacion</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mazinger Z Infinity</td>
+                        <td>Toei Company</td>
+                        <td>Acción, ciencia ficción</td>
+                        <td>2017</td>
+                        <td>$98 409 522</td>
+                    </tr>
+                    <tr>
+                        <td>Doctor Sueño</td>
+                        <td>Trevor Macy</td>
+                        <td>Terror, fantasía</td>
+                        <td>2019</td>
+                        <td>$72 856 765</td>
+                    </tr>
+                    <tr>
+                        <td>Geo-tormenta</td>
+                        <td>Dean Devlin</td>
+                        <td>Ciencia ficción</td>
+                        <td>2017</td>
+                        <td>$221 600 000</td>
+                    </tr>
+                    <tr>
+                        <td>Terrifier 2</td>
+                        <td>Damien Leone</td>
+                        <td>Terror, Slasher</td>
+                        <td>2022</td>
+                        <td>$19 386 948</td>
+                    </tr>
+                    <tr>
+                        <td>Shrek 2</td>
+                        <td>Aron Warner</td>
+                        <td>Infantil, Comedia</td>
+                        <td>2004</td>
+                        <td>$18 999 377 930</td>
+                    </tr>
+                    <tr>
+                        <td>Háblame</td>
+                        <td>Danny Philippou</td>
+                        <td>Terror, terror sobrenatural</td>
+                        <td>2022</td>
+                        <td>$72 571 534</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>Total</td>
+                        <td>$19 484 202 699</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+        <section>
+            <h2 id="tablas4">Tabla overflow-X</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum fringilla quam id consectetur. Curabitur dapibus malesuada est. Donec bibendum sit amet orci sit amet semper. Phasellus vel rhoncus diam. Cras ac imperdiet augue, vitae vulputate lorem. Donec quam sapien, vehicula vel dignissim ac, congue in ipsum. Phasellus luctus laoreet felis, venenatis ultrices risus hendrerit id. Etiam quis magna metus. Aenean elementum varius ex sagittis molestie. In quis mattis nisl, vel tristique mi. Nullam pulvinar imperdiet libero vel ultrices. Vestibulum id fermentum eros, in vulputate turpis. Nam ex lacus, finibus sit amet diam a, consequat vehicula turpis. Cras odio mauris, vehicula vel dictum sed, tristique a libero. Cras auctor dolor.</p>
+            <table id="tab_series">
+                <thead>
+                    <tr>
+                        <th>Serie</th>
+                        <th>Año</th>
+                        <th>Genero</th>
+                        <th colspan="2">Creador</th>
+                        <th colspan="2">Pais</th>
+                        <th>Temporadas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>House of Cards</td>
+                        <td>2013</td>
+                        <td>Policial</td>
+                        <td>Beau Willimon</td>
+                        <td></td>
+                        <td>Estados Unidos</td>
+                        <td></td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>Hora de aventura</td>
+                        <td>2018</td>
+                        <td>Fantasía</td>
+                        <td>Pendleton Ward</td>
+                        <td></td>
+                        <td>Estados Unidos</td>
+                        <td></td>
+                        <td>10</td>
+                    </tr>
+                    <tr>
+                        <td>Doctor House</td>
+                        <td>2004</td>
+                        <td>Drama médico</td>
+                        <td>David Shore</td>
+                        <td></td>
+                        <td>Estados Unidos</td>
+                        <td></td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>Belleza verdadera</td>
+                        <td>2020</td>
+                        <td>Romance</td>
+                        <td>Kim Sam-hyup</td>
+                        <td></td>
+                        <td>Corea del Sur</td>
+                        <td></td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Shogun</td>
+                        <td>2024</td>
+                        <td>Drama Histórico</td>
+                        <td>Rachel Kondo</td>
+                        <td></td>
+                        <td>Japón</td>
+                        <td></td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>Club de cuervos</td>
+                        <td>2014</td>
+                        <td>Comedia dramática</td>
+                        <td>Gaz Alazraki</td>
+                        <td>Michael Lam</td>
+                        <td>México</td>
+                        <td></td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <h6>Elaborado por Diego Juarez Camacho</h6>
+    </footer>
+</body>
+</html>

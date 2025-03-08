@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas en HTML</title>
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        .unordered-list ul {
+            list-style-type: circle;
+            margin-left: 20px;
+            padding-left: 20px;
+            color: black;
+        }
+
+        .ordered-list ol {
+            list-style-type: upper-roman;
+            margin-left: 20px;
+            padding-left: 20px;
+            color: black;
+            text-align: left;
+        }
+
+        .mixed-list ol {
+            list-style-type: decimal;
+            margin-left: 20px;
+            padding-left: 20px;
+            color: black;
+        }
+
+        .mixed-list ul {
+            list-style-type: circle;
+            margin-left: 40px;
+            padding-left: 20px;
+            color: dimgrey;
+        }
+
+        .description-list dl {
+            margin-left: 20px;
+            padding-left: 20px;
+            color: black;
+        }
+
+        .description-list dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .description-list dd {
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>LISTAS EN HTML</h1>
+    </header>
+    <nav>
+            <ul> 
+                <li><a href="../HTML/formatos%20de%20texto.html">Formatos</a></li> 
+                <li><a href="../HTML/listas.html">Listas</a></li> 
+                <li><a href="../HTML/Enlaces.html">Enlaces</a></li> 
+                <li><a href="../HTML/Tablas.html">Tablas</a></li> 
+                <li><a href="../HTML/imagenes.html">Imagenes</a></li> 
+                <li><a href="../HTML/audio.html">Audios</a></li> 
+                <li><a href="../HTML/Video.html">Videos</a></li> 
+                <li><a href="../HTML/formularios.html">Formularios</a></li>
+                <li><a href="../HTML/Index.html">Inicio</a></li> 
+            </ul> 
+    </nav>
+    <main>
+        <section class="unordered-list">
+            <h2>Listas Desordenadas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est turpis, rutrum at nisi et, tincidunt venenatis turpis. Vestibulum lacinia et felis non iaculis. Aenean faucibus varius orci, vel elementum sapien egestas tempus. Fusce porta auctor iaculis. Nunc nec dui fermentum, lobortis est in, vehicula sapien. Vivamus vitae mollis magna. Sed tincidunt est lacus, pellentesque consequat arcu accumsan id. Pellentesque imperdiet eleifend ex, sed euismod lacus vulputate at. Phasellus eu imperdiet risus. Aliquam condimentum turpis nisi, id cursus sem porta non. In sed tincidunt sapien. Aliquam malesuada lacinia felis in convallis. Praesent tristique tincidunt felis, vitae luctus turpis condimentum in.</p>
+            <ul>
+                <li>Argentina</li>
+                <li>Bolivia</li>
+                <li>Colombia</li>
+                <li>Dinamarca</li>
+                <li>España</li>
+                <li>Francia</li>
+                <li>Guatemala</li>
+                <li>México</li>
+                <li>Nigeria</li>
+                <li>Puerto Rico</li>
+            </ul>
+        </section>
+        <section class="ordered-list">
+            <h2>Listas Ordenadas</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est turpis, rutrum at nisi et, tincidunt venenatis turpis. Vestibulum lacinia et felis non iaculis. Aenean faucibus varius orci, vel elementum sapien egestas tempus. Fusce porta auctor iaculis. Nunc nec dui fermentum, lobortis est in, vehicula sapien. Vivamus vitae mollis magna. Sed tincidunt est lacus, pellentesque consequat arcu accumsan id. Pellentesque imperdiet eleifend ex, sed euismod lacus vulputate at. Phasellus eu imperdiet risus. Aliquam condimentum turpis nisi, id cursus sem porta non. In sed tincidunt sapien. Aliquam malesuada lacinia felis in convallis. Praesent tristique tincidunt felis, vitae luctus turpis condimentum in.</p>
+            <ol>
+                <li>Aguascalientes</li>
+                <li>Baja California</li>
+                <li>Colima</li>
+                <li>Durango</li>
+                <li>Estado de México</li>
+            </ol>
+        </section>
+        <section class="mixed-list">
+            <h2>Lista Mixta</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est turpis, rutrum at nisi et, tincidunt venenatis turpis. Vestibulum lacinia et felis non iaculis. Aenean faucibus varius orci, vel elementum sapien egestas tempus. Fusce porta auctor iaculis. Nunc nec dui fermentum, lobortis est in, vehicula sapien. Vivamus vitae mollis magna. Sed tincidunt est lacus, pellentesque consequat arcu accumsan id. Pellentesque imperdiet eleifend ex, sed euismod lacus vulputate at. Phasellus eu imperdiet risus. Aliquam condimentum turpis nisi, id cursus sem porta non. In sed tincidunt sapien. Aliquam malesuada lacinia felis in convallis. Praesent tristique tincidunt felis, vitae luctus turpis condimentum in.</p>
+            <ol>
+                <li>Querétaro
+                    <ul>
+                        <li>Pinal de Amoles</li>
+                    </ul>
+                </li>
+                <li>Sonora</li>
+                    <ul>
+                        <li>Chihuahua</li>
+                </ul>
+                <li>Veracruz
+                    <ul>
+                        <li>Xalapa</li>
+                        <li>Papantla</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+        <section class="description-list">
+            <h2>Lista de Descripción</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est turpis, rutrum at nisi et, tincidunt venenatis turpis. Vestibulum lacinia et felis non iaculis. Aenean faucibus varius orci, vel elementum sapien egestas tempus. Fusce porta auctor iaculis. Nunc nec dui fermentum, lobortis est in, vehicula sapien. Vivamus vitae mollis magna. Sed tincidunt est lacus, pellentesque consequat arcu accumsan id. Pellentesque imperdiet eleifend ex, sed euismod lacus vulputate at. Phasellus eu imperdiet risus. Aliquam condimentum turpis nisi, id cursus sem porta non. In sed tincidunt sapien. Aliquam malesuada lacinia felis in convallis. Praesent tristique tincidunt felis, vitae luctus turpis condimentum in.</p>
+            <dl>
+                <dt>República</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est turpis, rutrum at nisi et, tincidunt venenatis turpis. Vestibulum lacinia et felis non iaculis. Aenean faucibus varius orci, vel elementum sapien egestas tempus. Fusce porta auctor iaculis. Nunc nec dui fermentum, lobortis est in, vehicula sapien.</dd>
+                <dt>Estado</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est turpis, rutrum at nisi et, tincidunt venenatis turpis. Vestibulum lacinia et felis non iaculis. Aenean faucibus varius orci, vel elementum sapien egestas tempus. Fusce porta auctor iaculis. Nunc nec dui fermentum, lobortis est in, vehicula sapien.</dd>
+                <dt>Municipio</dt>
+                <dd>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est turpis, rutrum at nisi et, tincidunt venenatis turpis. Vestibulum lacinia et felis non iaculis. Aenean faucibus varius orci, vel elementum sapien egestas tempus. Fusce porta auctor iaculis. Nunc nec dui fermentum, lobortis est in, vehicula sapien.</dd>
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <h3>Elaborado por Diego Juarez Camacho</h3>
+    </footer>
+</body>
+</html>
